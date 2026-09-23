@@ -63,9 +63,12 @@ The project pins Lean 4.33.0 and Mathlib commit
 [`comparator.json`](comparator.json); it selects the Challenge theorem and its
 closed mathematical statement definition, with NanoDa enabled.
 
-Palomar Comparator/NanoDa verification and the exact Linux hosted Challenge
-renderer replay are separate release gates. The project is prepared as a new
-Palomar entry; no Palomar intake or registration has been initiated.
+The [`Palomar preflight workflow`](.github/workflows/palomar-preflight.yml)
+replays the pinned Palomar Comparator/NanoDa verifier and Challenge renderer
+against the exact commit selected when the workflow is dispatched. The
+renderer job runs on Linux under the pinned Landrun commit and includes
+Palomar's core-notation audit. These checks prepare the project as a new
+Palomar entry; they do not start an intake or register it.
 
 ## Mathematical source and provenance
 

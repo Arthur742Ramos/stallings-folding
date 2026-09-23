@@ -111,9 +111,12 @@ review:
   status: "self-assessed"
   reviewers: ["none"]
   notes: >-
-    The Lean development and closed Challenge statement were self-audited.
-    No independent mathematical review, Palomar mechanical verification,
-    hosted renderer replay, intake, or registration has been completed.
+    The Lean development and compiled Challenge statement surface were
+    self-audited. The repository contains a reproducible pinned Palomar
+    mechanical preflight and hosted renderer replay workflow; its run report
+    is the authority for the checked commit. No independent mathematical
+    review or Palomar editorial review is claimed. Preparing the preflight
+    does not initiate intake or registration.
 
 alignment:
   namespace: "Stallings"
