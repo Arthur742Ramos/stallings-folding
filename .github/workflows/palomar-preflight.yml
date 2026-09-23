@@ -24,7 +24,7 @@ jobs:
       labels: ${{ steps.resolve.outputs.labels }}
       render_timeout: ${{ steps.resolve.outputs.render_timeout }}
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: PalomarRegistry/PalomarSubmission
           ref: f49b4f29aa458fc70c3a4c8cadca9312adbdc559
