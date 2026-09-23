@@ -16,7 +16,7 @@ jobs:
       request_id: stallings001
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"comparator_config_path":"comparator.json"}'
+      options: '{"authorization_relationship":"I am a responsible author or maintainer","comparator_config_path":"comparator.json","formalization_metadata_path":"formalization.yaml"}'
 
   render-profile:
     runs-on: ubuntu-24.04
