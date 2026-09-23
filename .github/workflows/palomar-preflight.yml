@@ -15,7 +15,7 @@ jobs:
       pipeline_commit: f49b4f29aa458fc70c3a4c8cadca9312adbdc559
       request_id: stallings001
       mode: full
-      execution_profile: ""
+      execution_profile: palomar-standard-v1
       options: "{}"
 
   render-profile:
@@ -32,7 +32,7 @@ jobs:
           path: pipeline
       - id: resolve
         env:
-          PALOMAR_EXECUTION_PROFILE: ""
+          PALOMAR_EXECUTION_PROFILE: palomar-standard-v1
         run: python3 pipeline/scripts/verification_profile.py --resolve
 
   render:
